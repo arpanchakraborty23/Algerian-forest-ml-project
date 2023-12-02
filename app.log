@@ -1,0 +1,9 @@
+2023-12-02 21:27:28,536 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.4:5000
+2023-12-02 21:27:28,536 [33mPress CTRL+C to quit[0m
+2023-12-02 21:27:48,648 172.18.0.2 - - [02/Dec/2023 21:27:48] "GET / HTTP/1.1" 200 -
+2023-12-02 21:27:49,099 172.18.0.2 - - [02/Dec/2023 21:27:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-02 21:48:06,196 172.18.0.2 - - [02/Dec/2023 21:48:06] "GET /predictdata HTTP/1.1" 200 -
+2023-12-02 21:48:26,242 172.18.0.2 - - [02/Dec/2023 21:48:26] "POST /predictdata HTTP/1.1" 200 -
